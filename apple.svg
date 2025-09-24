@@ -1,0 +1,66 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 한국산 사과 본체 그라데이션 - 선명한 빨간색 -->
+    <radialGradient id="koreanApple" cx="0.3" cy="0.2" r="1.0">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#ff5252;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#c0392b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a93226;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- 자연스러운 하이라이트 -->
+    <radialGradient id="naturalHighlight" cx="0.2" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.5" />
+      <stop offset="30%" style="stop-color:#ffffff;stop-opacity:0.2" />
+      <stop offset="70%" style="stop-color:#ffffff;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- 한국 사과의 황금색 얼룩 -->
+    <radialGradient id="goldenSpot" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#ffa500;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#ff8c00;stop-opacity:0.3" />
+    </radialGradient>
+    
+    <!-- 연한 황색 얼룩 -->
+    <radialGradient id="lightSpot" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" style="stop-color:#ffff99;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:0.4" />
+    </radialGradient>
+  </defs>
+  
+  <!-- 한국산 사과 본체 - 정면에서 본 둥근 형태 -->
+  <circle cx="30" cy="30" r="25" fill="url(#koreanApple)" />
+  
+  <!-- 사과 상단 움푹 들어간 부분 -->
+  <ellipse cx="30" cy="12" rx="8" ry="6" fill="#8b4513" />
+  
+  <!-- 줄기 - 짧고 굵은 갈색 줄기 -->
+  <rect x="28" y="5" width="4" height="8" rx="2" fill="#654321" />
+  
+  <!-- 잎사귀 - 초록색 잎 -->
+  <ellipse cx="32" cy="8" rx="3" ry="5" fill="#228b22" transform="rotate(15 32 8)" />
+  
+  <!-- 한국 사과의 특징적인 황금색 얼룩들 -->
+  <!-- 왼쪽 상단 큰 얼룩 -->
+  <ellipse cx="22" cy="22" rx="4" ry="5" fill="url(#goldenSpot)" />
+  <!-- 오른쪽 중간 얼룩 -->
+  <ellipse cx="38" cy="28" rx="3" ry="4" fill="url(#lightSpot)" />
+  <!-- 왼쪽 중간 얼룩 -->
+  <ellipse cx="25" cy="32" rx="3" ry="3" fill="url(#goldenSpot)" />
+  <!-- 오른쪽 상단 작은 얼룩 -->
+  <ellipse cx="36" cy="20" rx="2" ry="2" fill="url(#lightSpot)" />
+  <!-- 하단 중앙 얼룩 -->
+  <ellipse cx="30" cy="38" rx="2" ry="3" fill="url(#goldenSpot)" />
+  
+  <!-- 자연스러운 하이라이트 -->
+  <ellipse cx="24" cy="22" rx="12" ry="15" fill="url(#naturalHighlight)" />
+  
+  <!-- 윤기 효과 -->
+  <ellipse cx="26" cy="24" rx="4" ry="6" fill="rgba(255,255,255,0.3)" />
+  
+  <!-- 사과 표면의 미묘한 질감 -->
+  <circle cx="30" cy="30" r="25" fill="none" stroke="rgba(139,69,19,0.1)" stroke-width="0.5" />
+</svg>
